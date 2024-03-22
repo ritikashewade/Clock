@@ -1,0 +1,94 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.mainDiv{
+	position: fixed;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100vh;
+  	width: 100vw;
+  	/*background-image: url("https://miro.medium.com/v2/resize:fit:679/1*YBLcvD-P6EauVZArUOtkIw.gif");*/
+    /*background-image: url("https://i.pinimg.com/originals/9a/57/2d/9a572d48d75a8aa532bd2116e4b27e67.gif");*/
+    /*background-image: url(https://media.tenor.com/nQ30dAyon5MAAAAM/sands-of-time-xlabel.gif);*/
+    
+
+}
+.color-change-5x {
+  -webkit-animation: color-change-5x 8s linear infinite alternate both;
+          animation: color-change-5x 8s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes color-change-5x {
+  0% {
+    background-image: url(https://i.pinimg.com/originals/e1/c9/b3/e1c9b3cf6ee3eb04a64a94c7abed549f.jpg);
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+
+
+
+h1{
+	color: lavender;
+font-family: monospace;
+ font-size: 100px;
+ letter-spacing: 20px;
+ color: purple;
+ -webkit-text-stroke-width: 4px;
+ -webkit-text-stroke-color: purple;
+ margin-left: 180px;
+ /*margin-top: 100px;*/
+}
+
+
+.container{
+  height: 400px;
+  width: 50%;
+  border: 30px solid white;
+  border-radius: 30px;
+ 
+
+  /*opacity: 0.3;*/
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f9b913b-c48a-43ab-a9aa-26d4355d1d80/dgdgq41-18a39afc-bd2a-4226-80b1-66754639fd3a.png/v1/fill/w_1280,h_549,q_80,strp/space_art_6___4k_ultrawide_wallpaper_background_by_ixul_dgdgq41-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTQ5IiwicGF0aCI6IlwvZlwvNmY5YjkxM2ItYzQ4YS00M2FiLWE5YWEtMjZkNDM1NWQxZDgwXC9kZ2RncTQxLTE4YTM5YWZjLWJkMmEtNDIyNi04MGIxLTY2NzU0NjM5ZmQzYS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.zyyf2_r1WltyYezJeJVXKRfbi37213Oh-B7s5g79Pfs);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+
+
+#time{
+  font-size: 140px;
+  color: white;
+}
